@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-export default function Auth() {
+export default function     Auth() {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    
+
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('Form submitted with:', { email, password });
